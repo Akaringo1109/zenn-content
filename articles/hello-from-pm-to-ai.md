@@ -151,3 +151,11 @@ ObsidianによるPKMについては、会議・チャット・案件資材を「
 
 あなたの現場では、AIと人間の役割分担をどう設計していますか？
 
+---
+
+**関連記事**
+
+@[card](https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news)
+
+@[card](https://zenn.dev/akaringo1109/articles/visualize-ai-thinking-with-nano-banana)
+
