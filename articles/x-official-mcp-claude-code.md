@@ -158,7 +158,7 @@ xurl whoami --app prd-mcp
 ```
 
 :::message
-devcontainer 内で OAuth する場合は、ポート `8080` を転送しておかないとブラウザの「許可」がコールバックに届きません。また、接続できる MCP が許可リストで制限された環境では、この stdio 登録が弾かれることがあります。その場合の対処法（supergateway で localhost の HTTP に変換する）は別記事にまとめました（近日公開予定）。
+devcontainer 内で OAuth する場合は、ポート `8080` を転送しておかないとブラウザの「許可」がコールバックに届きません。また、接続できる MCP が許可リストで制限された環境では、この stdio 登録が弾かれることがあります。その場合の対処法（supergateway で localhost の HTTP に変換する）は[別記事](https://zenn.dev/akaringo1109/articles/mcp-supergateway-allowlist)にまとめました。
 :::
 
 ## 投稿はできない。では、何ができるのか（全24ツール）
@@ -353,5 +353,6 @@ X の API には2つの認証タイプがあります。ツールごとにどち
 
 **関連記事**
 
-- 接続できる MCP が制限された環境で、stdio の MCP を supergateway 経由で繋いだ話（近日公開予定）
+@[card](https://zenn.dev/akaringo1109/articles/mcp-supergateway-allowlist)
+
 - Smart Connections MCP を supergateway 経由で動かした話（近日公開予定）
