@@ -34,7 +34,7 @@ T3 Code は Claude Code や Codex などのコーディングエージェント�
 @[card](https://t3.codes)
 
 ![T3 Code の公式サイトの紹介画像。T3 のアイコン、「The open-source control plane for coding agents.」の文字、6 つのエージェントのアイコンとアプリの画面](/images/t3code-herdr-mobile-agents/t3code-official.png)
-*出典: T3 Code 公式サイト（https://t3.codes）の紹介画像（og:image）。2026年10月26日に取得*
+*出典: T3 Code 公式サイトの紹介画像（og:image）。2026年10月26日に取得*
 
 ### herdr はエージェントの実行と状態の管理
 
@@ -48,7 +48,7 @@ herdr はコーディングエージェントをターミナルの中で動か�
 @[card](https://herdr.dev)
 
 ![herdr の公式サイトの紹介画像。羊のロゴ、「THE AGENT RUNTIME」と「Run them anywhere. Leave them running.」の文字](/images/t3code-herdr-mobile-agents/herdr-official.png)
-*出典: herdr 公式サイト（https://herdr.dev）の紹介画像（og:image）。2026年10月26日に取得*
+*出典: herdr 公式サイトの紹介画像（og:image）。2026年10月26日に取得*
 
 :::message
 Windows 11 で Claude Code を使っています。Bash のコマンドは Git for Windows の Git Bash で動かしています。herdr は 0.9.3（この記事の画面の撮影時は 0.9.5）、T3 Code はデスクトップ版（調べた時点で Alpha の 0.0.44）と Android のアプリです。2026年10月時点の内容で、どちらも若いツールなので、挙動はこの先変わる可能性があります。
