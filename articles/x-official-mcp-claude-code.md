@@ -7,7 +7,7 @@ published: true
 published_at: 2026-07-18 19:00
 ---
 
-Claude Code で自分用の仕組みを作りながら、外資系コンサルで AI 導入をリードしているあかりんごです。
+コンサルティング会社で AI 導入をリードしながら、福岡の Trellis で AI による業務改善・自動化を担当している伊藤です。
 インプットの自動化はずいぶん進んだのに、アウトプット、つまり X（旧 Twitter）への発信だけは毎回手で打っている。そんなちぐはぐさ、ありませんか。
 
 私は情報収集まわりはかなり自動化してきました。でも X への投稿は、結局その都度ブラウザを開いて書いて出す、の繰り返しです。この投稿という行為そのものを Claude Code から自動で流せたら、と前から思っていました。
@@ -356,3 +356,10 @@ X の API には2つの認証タイプがあります。ツールごとにどち
 @[card](https://zenn.dev/akaringo1109/articles/mcp-supergateway-allowlist)
 
 - Smart Connections MCP を supergateway 経由で動かした話（近日公開予定）
+
+## Trellis のこと
+
+Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+記事は Zenn と、Trellis のサイトのブログの両方に載せています。
+
+@[card](https://trellis-grow.com)

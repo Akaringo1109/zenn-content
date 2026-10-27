@@ -9,7 +9,7 @@ published_at: "2026-07-16 19:00"
 
 ## はじめに
 
-3歳と1歳を育てながら、外資コンサルでAI導入をリードしているあかりんごです。
+コンサルティング会社で AI 導入をリードしながら、福岡の Trellis で AI による業務改善・自動化を担当している伊藤です。
 
 会議もチャットも案件資材も、ぜんぶ Obsidian に貯めて「コンテキストを途切らせない」。その運用を2本に分けて書いていて、これは貯めた文脈を引き出す **つかう編** です。
 
@@ -343,3 +343,10 @@ AI と共有したいルールやワークフローは、会話で毎回言わ�
 @[card](https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news)
 
 @[card](https://zenn.dev/akaringo1109/articles/visualize-ai-thinking-with-nano-banana)
+
+## Trellis のこと
+
+Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+記事は Zenn と、Trellis のサイトのブログの両方に載せています。
+
+@[card](https://trellis-grow.com)

@@ -1,0 +1,11 @@
+{
+  "category": "ai",
+  "catch": [
+    "stdio の MCP を",
+    "HTTP にしてつなぐ"
+  ],
+  "sub": "supergateway は Streamable HTTP で",
+  "art": "mcp-supergateway-allowlist.art.jpg",
+  "glyph": "🔌",
+  "alt": "stdio の MCP をHTTP にしてつなぐ ― supergateway は Streamable HTTP で"
+}

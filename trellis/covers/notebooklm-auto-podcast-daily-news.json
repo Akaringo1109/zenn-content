@@ -1,0 +1,11 @@
+{
+  "category": "ai",
+  "catch": [
+    "追いたいニュースを",
+    "毎朝、音声で受け取る"
+  ],
+  "sub": "Claude Code × NotebookLM",
+  "art": "notebooklm-auto-podcast-daily-news.art.jpg",
+  "glyph": "🎙️",
+  "alt": "追いたいニュースを毎朝、音声で受け取る ― Claude Code × NotebookLM"
+}

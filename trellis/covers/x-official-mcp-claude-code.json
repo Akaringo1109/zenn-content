@@ -1,0 +1,11 @@
+{
+  "category": "ai",
+  "catch": [
+    "Xの公式MCPに",
+    "投稿ツールは無い"
+  ],
+  "sub": "投稿は xurl で X の API を直に叩く",
+  "art": "x-official-mcp-claude-code.art.jpg",
+  "glyph": "🐦",
+  "alt": "Xの公式MCPに投稿ツールは無い ― 投稿は xurl で X の API を直に叩く"
+}

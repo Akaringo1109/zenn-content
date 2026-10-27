@@ -139,7 +139,7 @@ AI のエージェント（作業を任せられる AI）や RAG（資料を意�
 
 ## Trellis のこと
 
-Trellis は福岡でホームページの制作と、AI による業務の自動化をしている会社です。
-このブログの記事は Trellis のサイトの TRELLIS BLOG にも載せていきます。
+Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
 @[card](https://trellis-grow.com)

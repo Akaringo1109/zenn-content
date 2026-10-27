@@ -7,7 +7,7 @@ published: true
 published_at: 2026-07-19 19:00
 ---
 
-Claude Code で自分用の仕組みを作りながら、外資系コンサルで AI 導入をリードしているあかりんごです。
+コンサルティング会社で AI 導入をリードしながら、福岡の Trellis で AI による業務改善・自動化を担当している伊藤です。
 `.mcp.json` に MCP サーバーを登録したのに、Claude Code の一覧に出てこない。エラーも出ない。そんな経験はありませんか。
 
 これは、別記事で「X への投稿を MCP で自動化したくて」公式 MCP を Claude Code に繋いだとき、接続でぶつかった話の裏側です。X 公式 MCP で実際に何ができるか（全24ツールの実測と、投稿の自動化）を確かめた本編はこちら。
@@ -180,3 +180,10 @@ fi
 @[card](https://zenn.dev/akaringo1109/articles/x-official-mcp-claude-code)
 
 - Smart Connections MCP を supergateway 経由で動かした話（近日公開予定）
+
+## Trellis のこと
+
+Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+記事は Zenn と、Trellis のサイトのブログの両方に載せています。
+
+@[card](https://trellis-grow.com)

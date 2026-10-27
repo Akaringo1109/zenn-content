@@ -514,3 +514,10 @@ Plaud のような録音・文字起こしの機器で、その場で消える�
 @[card](https://zenn.dev/akaringo1109/articles/obsidian-context-continuity-2)
 
 真似するなら、まずは要約ではなく発生源を 1 か所に貯めるところからです。
+
+## Trellis のこと
+
+Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+記事は Zenn と、Trellis のサイトのブログの両方に載せています。
+
+@[card](https://trellis-grow.com)

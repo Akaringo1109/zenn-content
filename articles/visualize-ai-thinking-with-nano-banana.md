@@ -9,7 +9,7 @@ published_at: "2026-07-17 19:00"
 
 ## はじめに
 
-Claude Code で自分用のツールを日々こしらえながら、外資コンサルで AI 導入をリードしているあかりんごです。
+コンサルティング会社で AI 導入をリードしながら、福岡の Trellis で AI による業務改善・自動化を担当している伊藤です。
 
 AI と一緒に何かを組み立てているとき、返ってくる長い説明を読み解くのに疲れていませんか。
 
@@ -165,3 +165,10 @@ https://github.com/Akaringo1109/agent-skills
 @[card](https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news)
 
 @[card](https://zenn.dev/akaringo1109/articles/hello-from-pm-to-ai)
+
+## Trellis のこと
+
+Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+記事は Zenn と、Trellis のサイトのブログの両方に載せています。
+
+@[card](https://trellis-grow.com)
