@@ -34,6 +34,7 @@ T3 Code は Claude Code や Codex などのコーディングエージェント�
 @[card](https://t3.codes)
 
 ![T3 Code の公式サイトの紹介画像。T3 のアイコン、「The open-source control plane for coding agents.」の文字、6 つのエージェントのアイコンとアプリの画面](/images/t3code-herdr-mobile-agents/t3code-official.png)
+
 *出典: T3 Code 公式サイトの紹介画像（og:image）。2026年10月26日に取得*
 
 ### herdr はエージェントの実行と状態の管理
@@ -48,6 +49,7 @@ herdr はコーディングエージェントをターミナルの中で動か�
 @[card](https://herdr.dev)
 
 ![herdr の公式サイトの紹介画像。羊のロゴ、「THE AGENT RUNTIME」と「Run them anywhere. Leave them running.」の文字](/images/t3code-herdr-mobile-agents/herdr-official.png)
+
 *出典: herdr 公式サイトの紹介画像（og:image）。2026年10月26日に取得*
 
 :::message
@@ -98,6 +100,7 @@ herdr agent read t3-remote-test --source visible
 左下の一覧には、状態が記号で出ます（✓ が `done`、◐ が `working`）。
 
 ![herdr の画面。左のペインで herdr agent prompt を打ち、JSON の応答が返っている。右の上下のペインでは Claude が作業中と回答済み。左下の一覧に状態の記号が並ぶ](/images/t3code-herdr-mobile-agents/herdr-agents-cli.png)
+
 *2026年10月26日に、記事用のセッション（herdr 0.9.5、モデルは Haiku）で撮影。`--wait` で待った worker-b の応答は `"agent_status":"done"` で返っている*
 
 `--wait` は、相手が承認や質問の画面で止まると `agent_blocked` を返します。
@@ -181,6 +184,7 @@ sequenceDiagram
 ```
 
 ![スマホの T3 Code のスレッド。「herdr の demo に、1+1 と今日の日付を聞いて、答えを返して」と送ると、PC のスレッドの Claude が 24 秒で作業し、herdr の別のペインの demo の答え「1+1 は 2 で、今日の日付は 2026-10-26 です。」を返している](/images/t3code-herdr-mobile-agents/phone-t3-herdr-demo.png)
+
 *2026年10月26日にスマホ（Android）の T3 Code で撮影。答えたのは、PC の herdr の別のペインで動いている Claude（Haiku）。PC の名前は伏せた*
 
 注意したいのは、herdr に組み込まれたエージェント向けの手引き（`herdr --skill`）が、herdr のペインの中で付く環境変数 `HERDR_ENV` が無ければ操作しないよう書いている点です。
@@ -244,6 +248,7 @@ herdr のペインの大きさは最後につないだ画面に合わせられ�
 | ワーカー | herdr のペイン（複数） | 指示書どおりに作業し、報告を書いて終わりの合図を出す |
 
 ![T3 Code のスレッドを頭に、herdr にコーディネーターとワーカーを置く 3 層の構成](/images/t3code-herdr-mobile-agents/three-layers.png)
+
 *この構成でスマホから話すのは頭だけ。ワーカーの細かい出力はコーディネーターが受け止める*
 
 頭を T3 Code に置くのは、この構成でスマホから話せるのがそこだからです。
