@@ -7,5 +7,7 @@
   "sub": "supergateway は Streamable HTTP で",
   "art": "mcp-supergateway-allowlist.art.jpg",
   "glyph": "🔌",
-  "alt": "stdio の MCP をHTTP にしてつなぐ ― supergateway は Streamable HTTP で"
+  "alt": "stdio の MCP をHTTP にしてつなぐ ― supergateway は Streamable HTTP で",
+  "theme": "手元で動く道具（標準入出力でしか話せないもの）を、小さな中継器で HTTP に変えて、離れた場所の AI につなぐ",
+  "motif": "二つの小さな島を結ぶ木の橋。左の島には巻いた古い電話線のコイル、右の島には小さな電波塔。橋の真ん中に小さな中継の小屋があり、光の粒が橋を渡っていく。背景は淡い生成りの無地。"
 }

@@ -5,7 +5,7 @@ Zenn の記事を Trellis のブログ（trellis-grow.com/blog/）へ同期す�
 | ファイル | 中身 | 作る道具 |
 |---|---|---|
 | `<slug>.json` | 分類（`trellis`・`web`・`ai`）、カバーの言葉（`catch` 2行・`sub` 1行）、挿絵のファイル名、読み上げの説明（`alt`）、挿絵の主題とモチーフ（`theme`・`motif`） | 手で書く |
-| `<slug>.art.jpg` | 挿絵（文字なし。右に主題、左に文字を重ねる余白） | Trellis のリポジトリの `.agents/skills/blog-cover/scripts/gen_art.py`（Nano Banana 2 Lite。画風は同じスキルの `settings/style.json` で固定） |
+| `<slug>.art.jpg` | 挿絵（文字なし。右に主題、左に文字を重ねる余白） | Trellis のリポジトリの `.agents/skills/blog-cover/scripts/gen_art.py`（gpt-image-2。Codex の内蔵 image_gen。画風は同じスキルの `settings/style.json` で固定） |
 | `<slug>.jpg` | カバー画像（1200×630） | Trellis のリポジトリの `blog-studio/tools/cover` |
 
 作り方の正本は Trellis のリポジトリの `.agents/skills/blog-cover/SKILL.md`。
