@@ -31,7 +31,7 @@ T3 Code は Claude Code や Codex などのコーディングエージェント�
 >
 > 訳: コーディングエージェントのための、オープンソースの操作盤。
 
-@[card](https://t3.codes)
+https://t3.codes
 
 ![T3 Code の公式サイトの紹介画像。T3 のアイコン、「The open-source control plane for coding agents.」の文字、6 つのエージェントのアイコンとアプリの画面](/images/t3code-herdr-mobile-agents/t3code-official.png)
 
@@ -46,7 +46,7 @@ herdr はコーディングエージェントをターミナルの中で動か�
 >
 > 訳: エージェントの実行環境。
 
-@[card](https://herdr.dev)
+https://herdr.dev
 
 ![herdr の公式サイトの紹介画像。羊のロゴ、「THE AGENT RUNTIME」と「Run them anywhere. Leave them running.」の文字](/images/t3code-herdr-mobile-agents/herdr-official.png)
 
@@ -149,7 +149,7 @@ T3 Code にはデスクトップ版とモバイルアプリがあります。
 窓口に T3 Code を選んだのは、次の点からです。
 
 | 観点 | T3 Code |
-|---|---|
+| --- | --- |
 | スマホの画面 | チャットの画面なので、指で読み書きしやすい |
 | PC との行き来 | PC で動いているスレッドを、スマホからそのまま続けられる |
 | ファイルと差分 | ファイルを開けて、右のパネルに差分やプレビューを出せる |
@@ -242,7 +242,7 @@ herdr のペインの大きさは最後につないだ画面に合わせられ�
 ### 頭・コーディネーター・ワーカーの役割
 
 | 層 | 置き場所 | 役割 |
-|---|---|---|
+| --- | --- | --- |
 | 頭 | T3 Code のスレッド | 私と話す窓口。方針を決めてコーディネーターに渡し、進み具合を見張る |
 | コーディネーター | herdr のペイン | 作業を分けて指示書を書き、ワーカーに配る。夜間のログを書き、判断が要ることを朝にまとめる |
 | ワーカー | herdr のペイン（複数） | 指示書どおりに作業し、報告を書いて終わりの合図を出す |
@@ -270,7 +270,7 @@ commit は朝に私がします。
 私は Obsidian の Vault を作業の場所にして、AI と共有したい決まりを共通のファイルに書き、セッションをまたいで読ませています。
 その考え方と中身は前の記事に書きました。
 
-@[card](https://zenn.dev/akaringo1109/articles/obsidian-context-continuity)
+https://zenn.dev/akaringo1109/articles/obsidian-context-continuity
 
 ある晩のコーディネーターに渡した決まりは、要旨をまとめるとこうでした。
 この晩は別の作業のセッションと使用量の枠を分け合っていました。
@@ -310,7 +310,6 @@ Claude Code のサブエージェントは送らない（途中で「完了」�
 スクリプトは Git Bash で動き、実行ごとに分けたフォルダに `<タスクの ID>.done.json` と `latest.done.json` を書きます。
 
 :::details worker-done.sh の要点（実物から抜き出したもの。このままでは動きません）
-
 ```bash
 SIGNAL_DIR="${SIGNAL_BASE}/${RUN_SCOPE}"   # 実行ごとに分けたフォルダ。分からなければ unscoped
 mkdir -p "$SIGNAL_DIR"
@@ -323,7 +322,6 @@ print(json.dumps({'taskId': sys.argv[1], 'status': sys.argv[2],
 printf '%s\n' "$JSON_PAYLOAD" > "${SIGNAL_DIR}/${TASK_ID}.done.json"
 cp -f "${SIGNAL_DIR}/${TASK_ID}.done.json" "${SIGNAL_DIR}/latest.done.json"
 ```
-
 :::
 
 コーディネーターは見回りのたびにこのフォルダと herdr の状態の両方を見ます。
@@ -396,4 +394,4 @@ stalled が返っても再送せず、まず `herdr agent read` で画面を確�
 Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
-@[card](https://trellis-grow.com)
+https://trellis-grow.com

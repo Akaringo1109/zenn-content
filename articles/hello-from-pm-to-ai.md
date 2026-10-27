@@ -14,6 +14,7 @@ AI が来て、その前提が変わりました。
 このブログには AI のエージェントを実際の仕事で回して分かったことを書いています。
 
 この記事で分かること
+
 - エンジニアではない上流の PM が、AI で実装まで手を伸ばすと何が変わるか
 - 私がどこから来て、いま何をしているか
 - このブログで何を書いているか（書いた記事への入り口）
@@ -103,7 +104,7 @@ AI のエージェント（作業を任せられる AI）や RAG（資料を意�
 そこで、エージェントにファイルを直接探して読ませる検索と、git の変更履歴を重ねる形に切り替えました。
 この判断は動かしてみなければできませんでした。
 
-@[card](https://zenn.dev/akaringo1109/articles/obsidian-context-continuity-2)
+https://zenn.dev/akaringo1109/articles/obsidian-context-continuity-2
 
 「上流か実装か」の二択ではありません。
 **実装の肌感を持った上流の設計者が、いちばん動ける範囲が広い**と考えています。
@@ -128,11 +129,11 @@ AI のエージェント（作業を任せられる AI）や RAG（資料を意�
 
 たとえば、会議・チャット・案件の資材を Obsidian に集め、AI と文脈を途切らせない運用を書きました。
 
-@[card](https://zenn.dev/akaringo1109/articles/obsidian-context-continuity)
+https://zenn.dev/akaringo1109/articles/obsidian-context-continuity
 
 追いたいテーマのニュースを Claude Code に集めさせ、Google の NotebookLM で音声の解説にして聴く仕組みも作りました。
 
-@[card](https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news)
+https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news
 
 書くと、曖昧だった考えが整理され、読んだ知識が自分のものになります。
 難しい言葉は使わず、考え方の話には現場の具体を添えるようにしています。
@@ -142,4 +143,4 @@ AI のエージェント（作業を任せられる AI）や RAG（資料を意�
 Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
-@[card](https://trellis-grow.com)
+https://trellis-grow.com

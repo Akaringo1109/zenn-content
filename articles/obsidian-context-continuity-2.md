@@ -15,7 +15,7 @@ published_at: "2026-07-16 19:00"
 
 ためる編では、発生源をまるごと外部脳に貯める仕組み（PARA のフォルダ、Copilot での議事録生成、自分の発言記録、グラフビュー）を書きました。やっていることの正体は **コンテキストエンジニアリング** です。つまり「AI が正しく判断できる文脈を、途切れさせずに設計・維持する」ことです。
 
-@[card](https://zenn.dev/akaringo1109/articles/obsidian-context-continuity)
+https://zenn.dev/akaringo1109/articles/obsidian-context-continuity
 
 でも、貯めただけでは、ただのゴミ屋敷です。
 このつかう編では、貯めた外部脳から **AI でどう引き出し、自分自身の振り返りにどう返すか** を書きます。
@@ -85,8 +85,7 @@ RAG を「入れるか入れないか」の二択で考えるのはやめて、 
 
 この3つ目の抜け漏れ検出は、検索の「死角」を git で潰しているのが肝です。中身を少しだけ見せます。
 
-:::details 実際の `/check-task-leakage` ワークフロー（案件名・パスはマスキング）
-
+:::details 実際の /check-task-leakage ワークフロー（案件名・パスはマスキング）
 ```markdown
 ## 1. 対象ファイルを機械的に網羅取得
 
@@ -150,7 +149,6 @@ AI は、空欄や曖昧なところを「それらしく」埋めるのが得�
 これも、AI と共有したいルールを Markdown に書いて渡す、というためる編の考え方のそのままの応用です。会議の準備という毎週の作業が、ほぼ確認と微調整だけで終わるようになりました。
 
 :::details 定例会議アジェンダ生成ワークフロー（案件名を伏せた抽象版）
-
 ```markdown
 ## 1. 開催日の決定
 - 保存先の最新アジェンダファイルの日付を基準に、翌営業日を算出する
@@ -227,8 +225,7 @@ AI は、空欄や曖昧なところを「それらしく」埋めるのが得�
 「振り返るテンプレ」を持つのではなく、「振り返りが勝手に立ち上がる仕掛け」を持つ。
 継続の最大の敵は、白紙の空欄だと思っています。
 
-:::details 実際の `/daily-reflection` ワークフロー
-
+:::details 実際の /daily-reflection ワークフロー
 ```markdown
 ## 1. 対象の日次ノートを特定し、「今日のTASK」を解析する
 
@@ -338,15 +335,15 @@ AI と共有したいルールやワークフローは、会話で毎回言わ�
 
 **関連記事**
 
-@[card](https://zenn.dev/akaringo1109/articles/hello-from-pm-to-ai)
+https://zenn.dev/akaringo1109/articles/hello-from-pm-to-ai
 
-@[card](https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news)
+https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news
 
-@[card](https://zenn.dev/akaringo1109/articles/visualize-ai-thinking-with-nano-banana)
+https://zenn.dev/akaringo1109/articles/visualize-ai-thinking-with-nano-banana
 
 ## Trellis のこと
 
 Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
-@[card](https://trellis-grow.com)
+https://trellis-grow.com
