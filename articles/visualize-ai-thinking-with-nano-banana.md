@@ -93,9 +93,9 @@ AI と1つのセッションで仕組みを作り込んでいるとき、区切�
 
 実際、この記事に載せている図も含めて、私が最近書いた記事の図解は、ほとんどこの仕組みで作っています。
 
-@[card](https://zenn.dev/akaringo1109/articles/obsidian-context-continuity)
+https://zenn.dev/akaringo1109/articles/obsidian-context-continuity
 
-@[card](https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news)
+https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news
 
 ここで地味に効いているのが、 **スタイルを設定ファイルで固定している** ことです。配色も比率もフォントも決め打ちにしてあるので、別々のタイミングで作った図でも、記事のなかでトーンが揃います。図を1枚足すたびに「色どうしよう」と悩まなくて済むのは、思っていた以上に快適でした。
 
@@ -160,15 +160,15 @@ https://github.com/Akaringo1109/agent-skills
 
 **関連記事**
 
-@[card](https://zenn.dev/akaringo1109/articles/obsidian-context-continuity)
+https://zenn.dev/akaringo1109/articles/obsidian-context-continuity
 
-@[card](https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news)
+https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news
 
-@[card](https://zenn.dev/akaringo1109/articles/hello-from-pm-to-ai)
+https://zenn.dev/akaringo1109/articles/hello-from-pm-to-ai
 
 ## Trellis のこと
 
 Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
-@[card](https://trellis-grow.com)
+https://trellis-grow.com

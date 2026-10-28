@@ -106,7 +106,7 @@ xurl は OAuth 2.0 の PKCE フローで認証します。必要なのは **Clie
 
 必須項目を設定します。ポイントは3つです。
 
-- **アプリの権限**：閲覧だけなら「読む」で十分ですが、**xurl から投稿もしたいなら「読み取りと書き込み」**を選びます（この権限を後から変えたら、OAuth ログインをやり直してトークンを取り直します）。
+- **アプリの権限**：閲覧だけなら「読む」で十分ですが、**xurl から投稿もしたいなら「読み取りと書き込み**」を選びます（この権限を後から変えたら、OAuth ログインをやり直してトークンを取り直します）。
 - **アプリの種類**：「ウェブアプリ、自動化アプリまたはボット（機密クライアント）」を選ぶと OAuth 2.0 が有効になります。
 - **アプリ情報（必須）**：
   - コールバックURI / リダイレクトURL → `http://localhost:8080/callback`（後で `xurl auth apps add` に渡す値と完全一致させます）
@@ -176,7 +176,7 @@ devcontainer 内で OAuth する場合は、ポート `8080` を転送してお�
 ### ユーザー情報（5ツール）
 
 | ツール | できること | 必要ティア | 実測 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `get_users_me` | 認証ユーザー自身のプロフィール取得 | Free | ✅ |
 | `get_users_by_id` | ユーザー ID でプロフィール取得 | Basic | ❌ 402 |
 | `get_users_by_username` | @handle でプロフィール取得 | Basic | ❌ 402 |
@@ -213,7 +213,7 @@ xurl "/2/users/me?user.fields=created_at,description,public_metrics" --app prd-m
 ### 投稿・タイムライン（6ツール）
 
 | ツール | できること | 必要ティア | 実測 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `get_users_posts` | 指定ユーザーの投稿一覧 | Basic | ❌ 402 |
 | `get_users_timeline` | フォロー中のホームタイムライン | Basic | ❌ 402 |
 | `get_users_mentions` | 自分へのメンション一覧 | Basic | ❌ 402 |
@@ -226,7 +226,7 @@ xurl "/2/users/me?user.fields=created_at,description,public_metrics" --app prd-m
 ### エンゲージメント（3ツール）
 
 | ツール | できること | 必要ティア | 実測 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `get_posts_liking_users` | いいねしたユーザー一覧 | Basic | ⚠️ 200（0件） |
 | `get_posts_reposted_by` | リポストしたユーザー一覧 | Basic | ❌ 402 |
 | `get_posts_quoted_posts` | 引用した投稿一覧 | Basic | ❌ 402 |
@@ -234,7 +234,7 @@ xurl "/2/users/me?user.fields=created_at,description,public_metrics" --app prd-m
 ### 検索・トレンド・ニュース（4ツール）
 
 | ツール | できること | 必要ティア | 実測 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `search_posts_all` | 全期間のツイート全文検索 | Pro | ❌ 403 |
 | `get_trends_by_woeid` | 地域別トレンドランキング | Basic | ❌ 402 |
 | `search_news` | ニュース記事のキーワード検索 | Basic | ❌ 402 |
@@ -245,7 +245,7 @@ xurl "/2/users/me?user.fields=created_at,description,public_metrics" --app prd-m
 ### ブックマーク（6ツール）
 
 | ツール | できること | 必要ティア | 実測 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `get_users_bookmarks` | 自分のブックマーク一覧 | Basic | ❌ 402 |
 | `create_users_bookmark` | ブックマークに追加 | Basic | ❌ 402 |
 | `delete_users_bookmark` | ブックマーク削除 | Basic | ❌ 402 |
@@ -260,7 +260,7 @@ xurl "/2/users/me?user.fields=created_at,description,public_metrics" --app prd-m
 X API は 2026 年 2 月に従量課金（Pay Per Use・クレジット制）が既定になり、無料枠は廃止されました（旧 Basic / Pro のサブスクは新規受付終了、既存も従量へ移行中）。私のアカウントもこれで、クレジットが尽きていたので `get_users_me` 以外はほぼ `402 credits depleted` でした。主な単価はこうです（公式ドキュメント基準・執筆時点）。
 
 | 操作 | 単価（従量課金） |
-|---|---|
+| --- | --- |
 | 投稿（通常のテキスト・メディア） | **$0.015 / 件**（約2円） |
 | 投稿（リンクを含む） | **$0.20 / 件**（約30円） |
 | 投稿の読み取り | $0.005 / 件 |
@@ -353,7 +353,7 @@ X の API には2つの認証タイプがあります。ツールごとにどち
 
 **関連記事**
 
-@[card](https://zenn.dev/akaringo1109/articles/mcp-supergateway-allowlist)
+https://zenn.dev/akaringo1109/articles/mcp-supergateway-allowlist
 
 - Smart Connections MCP を supergateway 経由で動かした話（近日公開予定）
 
@@ -362,4 +362,4 @@ X の API には2つの認証タイプがあります。ツールごとにどち
 Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
-@[card](https://trellis-grow.com)
+https://trellis-grow.com

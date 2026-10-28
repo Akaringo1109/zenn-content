@@ -63,7 +63,7 @@ flowchart TD
 ```
 
 | ツール | 役割 | 費用 |
-|--------|------|------|
+| --- | --- | --- |
 | Claude Code カスタムスキル | 全体オーケストレーション | — |
 | notebooklm-mcp-cli（`nlm.exe`） | NotebookLM操作のCLIラッパー | 無料 |
 | Claude Code WebSearch | 技術ブログ・記事の検索 | 無料 |
@@ -79,7 +79,7 @@ flowchart TD
 
 私の場合、このVaultは Obsidian で管理していて、会議の議事録・チャットログ・案件資材をすべて一か所に集めた「外部脳」として運用しています。このVaultの設計と運用の仕組みについては、別記事で詳しく書いています。
 
-@[card](https://zenn.dev/akaringo1109/articles/obsidian-context-continuity)
+https://zenn.dev/akaringo1109/articles/obsidian-context-continuity
 
 ```
 <Vault>/
@@ -338,7 +338,7 @@ URLを1件ずつソースとして追加すると9テーマ×5件=45件/日を�
 `dedup.py`がURL単位で使用履歴を管理し、ポリシーに従ってフィルタリングします。
 
 | ソース種別 | 除外スコープ | 除外期間 |
-|-----------|-------------|---------|
+| --- | --- | --- |
 | Xの投稿 | 同テーマ内 | 14日間 |
 | Web記事 | テーマ横断（全体） | 180日間 |
 
@@ -442,7 +442,7 @@ cross-day diffの実現については、直近N日分のみを渡す・前日�
 ## 運用上の制約
 
 | プラン | ソース上限 | 運用可能期間 |
-|--------|-----------|-------------|
+| --- | --- | --- |
 | Free | 50件/ノートブック | 約50日 |
 | Ultra | 600件/ノートブック | 約1.5年 |
 
@@ -469,9 +469,9 @@ cross-day diffの実現については、直近N日分のみを渡す・前日�
 
 **関連記事**
 
-@[card](https://zenn.dev/akaringo1109/articles/obsidian-context-continuity)
+https://zenn.dev/akaringo1109/articles/obsidian-context-continuity
 
-@[card](https://zenn.dev/akaringo1109/articles/visualize-ai-thinking-with-nano-banana)
+https://zenn.dev/akaringo1109/articles/visualize-ai-thinking-with-nano-banana
 
 「今日何したっけ」が音声で届く──Claude Code + Gemini TTS で日次・週次振り返りポッドキャストを自作した（近日公開予定）
 
@@ -480,4 +480,4 @@ cross-day diffの実現については、直近N日分のみを渡す・前日�
 Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
-@[card](https://trellis-grow.com)
+https://trellis-grow.com

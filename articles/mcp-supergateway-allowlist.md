@@ -12,7 +12,7 @@ published_at: 2026-07-19 19:00
 
 これは、別記事で「X への投稿を MCP で自動化したくて」公式 MCP を Claude Code に繋いだとき、接続でぶつかった話の裏側です。X 公式 MCP で実際に何ができるか（全24ツールの実測と、投稿の自動化）を確かめた本編はこちら。
 
-@[card](https://zenn.dev/akaringo1109/articles/x-official-mcp-claude-code)
+https://zenn.dev/akaringo1109/articles/x-official-mcp-claude-code
 
 接続できる MCP が許可リストで絞られた環境で、リストにない stdio の MCP をどう通したか。supergateway を挟むという定番の一手を、つまずきどころ込みで書きます。
 
@@ -55,8 +55,8 @@ MCP の接続は、混ざりやすい2つの軸に分けると見通しがよく
 - **話し方（トランスポート）**：起動して標準入出力で筆談する **stdio** か、URL に HTTP でアクセスする **HTTP** か
 - **場所**：自分のマシンやコンテナ内で動く **ローカル** か、インターネットの先で動く **リモート** か
 
-| | stdio | HTTP |
-|---|---|---|
+|  | stdio | HTTP |
+| --- | --- | --- |
 | **ローカル** | playwright、素の xurl | supergateway 出力（localhost:3335） |
 | **リモート** | （原理的に存在しない） | ホステッドな MCP（例：Figma） |
 
@@ -177,7 +177,7 @@ fi
 
 **関連記事**
 
-@[card](https://zenn.dev/akaringo1109/articles/x-official-mcp-claude-code)
+https://zenn.dev/akaringo1109/articles/x-official-mcp-claude-code
 
 - Smart Connections MCP を supergateway 経由で動かした話（近日公開予定）
 
@@ -186,4 +186,4 @@ fi
 Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
-@[card](https://trellis-grow.com)
+https://trellis-grow.com

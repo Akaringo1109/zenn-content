@@ -14,6 +14,7 @@ published_at: "2026-07-15 19:00"
 いまは会議もチャットも案件の資材も、ノートのアプリ Obsidian に一次情報のまま貯め、その上で Claude Code に仕事を任せています。
 
 この記事で分かること
+
 - AI に文脈を持たせるために、要約ではなく発生源を貯める理由
 - 実際に使っているフォルダ構成、議事録とデイリーノートのテンプレート、議事録を作るプロンプト
 - 貯める側で、まだうまくいっていないこと
@@ -81,18 +82,18 @@ To Do も決定事項もほぼ間違いなく会議・チャット・対面の�
 Obsidian は手元のフォルダに Markdown のノートをためていくアプリです。
 公式サイトの最初の画面には「Sharpen your thinking.」（考えを研ぎ澄ます）とあります。
 
-@[card](https://obsidian.md)
+https://obsidian.md
 
 Claude Code は Anthropic の AI エージェントで、ファイルを読ませて作業を任せられます。
 私は Vault の中で動かしているので、貯めたノートをそのまま読ませられます。
 
-@[card](https://www.claude.com/product/claude-code)
+https://www.claude.com/product/claude-code
 
 Obsidian にはプラグイン（機能を足す拡張）を入れています。
 この記事に出てくるのは次の 4 つです。
 
 | プラグイン | この記事での使い道 |
-|---|---|
+| --- | --- |
 | Templater | ノートの雛形に日付やスクリプトを埋め込み、作った瞬間にフォルダへ仕分ける |
 | Dataview | タグやリンクから、関連するノートの一覧を自動で並べる（`dataviewjs`） |
 | Thino | その日の短いメモを書き留める |
@@ -256,7 +257,6 @@ tags: [meeting, project]
 前回の宿題と今回の宿題が、担当・期限つきで毎回そろいます。
 
 :::details 週フォルダへ自動で仕分ける Templater スクリプト
-
 テンプレートの末尾に、Templater の `<%* … %>` で囲んで置いています。
 
 ```js
@@ -401,7 +401,6 @@ tR += dayNames[dayOfWeek];
 ノートの末尾にもスクリプトを置いていて、作った瞬間に `年/月/週/` のフォルダへ仕分けます。
 
 :::details 関連ノート用の dataviewjs と、自動で仕分ける Templater スクリプトの全文
-
 1 つ目は「🔗 関連ノート」の下の `dataviewjs` のコードブロックに、2 つ目はテンプレートの末尾に `<%* … %>` で囲んで置いています。
 1 つ目はこのノートと同じタグのノート（新しい順に 15 件まで）と、このノートのリンク先を指しているノートを並べます。
 
@@ -511,7 +510,7 @@ Plaud のような録音・文字起こしの機器で、その場で消える�
 
 つかう編では、この外部脳から「昨日のあれ」を曖昧な聞き方のまま引き出す方法と、日次・週次で自分を振り返る方法を書きました。
 
-@[card](https://zenn.dev/akaringo1109/articles/obsidian-context-continuity-2)
+https://zenn.dev/akaringo1109/articles/obsidian-context-continuity-2
 
 真似するなら、まずは要約ではなく発生源を 1 か所に貯めるところからです。
 
@@ -520,4 +519,4 @@ Plaud のような録音・文字起こしの機器で、その場で消える�
 Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
-@[card](https://trellis-grow.com)
+https://trellis-grow.com
