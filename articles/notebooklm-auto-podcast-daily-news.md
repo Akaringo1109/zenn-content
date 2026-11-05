@@ -7,7 +7,7 @@ published: true
 published_at: "2026-07-14 19:00"
 ---
 
-福岡の Trellis で AI による業務改善・自動化を担当している ASUKA です。
+福岡で AI による業務改善や自動化、Web 制作などに取り組んでいる Trellis です。
 
 仕事では毎日AIの話をしているのに、自分のためのインプットだけはいつも後回し。「あとで読む」に積み上がった記事、消化できていますか？
 
@@ -477,7 +477,7 @@ https://zenn.dev/akaringo1109/articles/visualize-ai-thinking-with-nano-banana
 
 ## Trellis のこと
 
-Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+Trellis は、福岡でホームページの制作と、AI による業務の自動化に取り組んでいます。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
 https://trellis-grow.com

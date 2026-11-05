@@ -8,7 +8,7 @@ published: true
 
 私は毎日、追いたいテーマのニュースを Gemini Notebook（旧 NotebookLM）の音声解説で聴いています。
 PC で動かす自作の仕組みです。
-福岡の Trellis で AI による業務改善・自動化を担当している ASUKA です。
+福岡で AI による業務改善や自動化、Web 制作などに取り組んでいる Trellis です。
 
 2026 年 10 月下旬に、Gemini のチャットに「@Gemini Notebook」が入り、ノートブックを操作できるようになりました。
 これとスケジュールで、PC 無しで回せるか試しました。
@@ -242,7 +242,7 @@ https://support.google.com/gemininotebook/answer/16213268
 
 ## Trellis のこと
 
-Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+Trellis は、福岡でホームページの制作と、AI による業務の自動化に取り組んでいます。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
 https://trellis-grow.com

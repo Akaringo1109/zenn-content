@@ -9,7 +9,7 @@ published_at: "2026-07-16 19:00"
 
 ## はじめに
 
-福岡の Trellis で AI による業務改善・自動化を担当している ASUKA です。
+福岡で AI による業務改善や自動化、Web 制作などに取り組んでいる Trellis です。
 
 会議もチャットも案件資材も、ぜんぶ Obsidian に貯めて「コンテキストを途切らせない」。その運用を2本に分けて書いていて、これは貯めた文脈を引き出す **つかう編** です。
 
@@ -335,15 +335,13 @@ AI と共有したいルールやワークフローは、会話で毎回言わ�
 
 **関連記事**
 
-https://zenn.dev/akaringo1109/articles/hello-from-pm-to-ai
-
 https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news
 
 https://zenn.dev/akaringo1109/articles/visualize-ai-thinking-with-nano-banana
 
 ## Trellis のこと
 
-Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+Trellis は、福岡でホームページの制作と、AI による業務の自動化に取り組んでいます。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
 https://trellis-grow.com

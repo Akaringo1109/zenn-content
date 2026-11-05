@@ -7,7 +7,7 @@ published: true
 ---
 
 Mermaid の文をブラウザ無しで SVG にできる別エンジン「Pele」を、本家の Mermaid.js と描き比べました。
-福岡の Trellis で AI による業務改善・自動化を担当している ASUKA です。
+福岡で AI による業務改善や自動化、Web 制作などに取り組んでいる Trellis です。
 
 私は Zenn の記事や設計書で Mermaid をよく使います。
 記事を自社のブログに取り込む処理では、ブラウザを立ち上げて Mermaid.js で図を画像にしています。
@@ -432,7 +432,7 @@ https://github.com/obsidianmd/pele/blob/main/SECURITY.md
 
 ## Trellis のこと
 
-Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+Trellis は、福岡でホームページの制作と、AI による業務の自動化に取り組んでいます。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
 https://trellis-grow.com

@@ -3,7 +3,7 @@ title: "はじめまして。Webディレクター出身のPMが、AIで実装�
 emoji: "🍎"
 type: "idea"
 topics: ["FDE", "PM", "AI", "業務改善", "キャリア"]
-published: true
+published: false
 ---
 
 コードは書かないが、全体を動かす。

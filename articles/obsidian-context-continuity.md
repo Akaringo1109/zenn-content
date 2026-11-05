@@ -10,7 +10,7 @@ published_at: "2026-07-15 19:00"
 「先週の会議で何が決まったんだっけ」。
 少し前まで、これを思い出すために議事録を漁る時間を、毎日のように溶かしていました。
 
-福岡の Trellis で AI による業務改善・自動化を担当している ASUKA です。
+福岡で AI による業務改善や自動化、Web 制作などに取り組んでいる Trellis です。
 いまは会議もチャットも案件の資材も、ノートのアプリ Obsidian に一次情報のまま貯め、その上で Claude Code に仕事を任せています。
 
 この記事で分かること
@@ -516,7 +516,7 @@ https://zenn.dev/akaringo1109/articles/obsidian-context-continuity-2
 
 ## Trellis のこと
 
-Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+Trellis は、福岡でホームページの制作と、AI による業務の自動化に取り組んでいます。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
 https://trellis-grow.com
