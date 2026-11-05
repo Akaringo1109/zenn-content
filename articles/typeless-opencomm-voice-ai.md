@@ -3,8 +3,8 @@ title: "並列で動かす AI への指示を、打つのをやめて Typeless �
 emoji: "🎧"
 type: "idea"
 topics: ["typeless", "音声入力", "claudecode", "ai"]
-published: false
-published_at: 2026-11-03 09:00
+published: true
+published_at: 2026-11-05 09:00
 ---
 
 AI を何並列も動かしていると、キーボードで打つ指示が、AI のレスポンスに追いつきません。
