@@ -5,6 +5,7 @@ type: "tech"
 topics: ["claudecode", "skills", "aiagent", "documentation"]
 published: true
 published_at: 2026-11-09 09:00
+publication_name: "trellis"
 ---
 
 AI に設計書を書かせるたびに、私は同じ指摘を打ち直していました。

@@ -5,6 +5,7 @@ type: "tech"
 topics: ["claudecode", "android", "adb", "troubleshooting"]
 published: true
 published_at: 2026-11-10 09:00
+publication_name: "trellis"
 ---
 
 スマホを ADB で PC につなぐと、Claude Code はスマホのシェルでコマンドを打ち、画面に出ない設定やログを自分で読めます。

@@ -4,6 +4,7 @@ emoji: "🧩"
 type: "tech"
 topics: ["figma", "aiagent", "python", "claudecode", "skills"]
 published: true
+publication_name: "trellis"
 ---
 
 Claude Code のスキルは、MCP や API を通せば Figma のファイルも扱えます。

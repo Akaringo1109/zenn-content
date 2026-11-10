@@ -4,6 +4,7 @@ emoji: "📱"
 type: "tech"
 topics: ["claudecode", "t3code", "herdr", "aiagent", "windows"]
 published: true
+publication_name: "trellis"
 ---
 
 VS Code の拡張機能で Claude Code を動かしていましたが、VS Code が重く、使っていて体験も良くありませんでした。
@@ -270,7 +271,7 @@ commit は朝に私がします。
 私は Obsidian の Vault を作業の場所にして、AI と共有したい決まりを共通のファイルに書き、セッションをまたいで読ませています。
 その考え方と中身は前の記事に書きました。
 
-https://zenn.dev/akaringo1109/articles/obsidian-context-continuity
+https://zenn.dev/trellis/articles/obsidian-context-continuity
 
 ある晩のコーディネーターに渡した決まりは、要旨をまとめるとこうでした。
 この晩は別の作業のセッションと使用量の枠を分け合っていました。

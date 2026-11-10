@@ -5,6 +5,7 @@ type: "idea"
 topics: ["typeless", "音声入力", "claudecode", "ai"]
 published: true
 published_at: 2026-11-05 09:00
+publication_name: "trellis"
 ---
 
 AI を何並列も動かしていると、キーボードで打つ指示が、AI のレスポンスに追いつきません。
@@ -35,7 +36,7 @@ T3 Code では、ふだん 5 並列ほどのスレッドを動かしています
 
 T3 Code でエージェントを束ねる環境は、前の記事にまとめました。
 
-https://zenn.dev/akaringo1109/articles/t3code-herdr-mobile-agents
+https://zenn.dev/trellis/articles/t3code-herdr-mobile-agents
 
 ### 打っている間に、ほかのスレッドが止まる
 

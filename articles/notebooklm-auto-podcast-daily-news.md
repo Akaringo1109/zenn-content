@@ -5,6 +5,7 @@ type: "tech"
 topics: ["notebooklm", "claudecode", "automation", "ai", "obsidian"]
 published: true
 published_at: "2026-07-14 19:00"
+publication_name: "trellis"
 ---
 
 福岡で AI による業務改善や自動化、Web 制作などに取り組んでいる Trellis です。
@@ -79,7 +80,7 @@ flowchart TD
 
 私の場合、このVaultは Obsidian で管理していて、会議の議事録・チャットログ・案件資材をすべて一か所に集めた「外部脳」として運用しています。このVaultの設計と運用の仕組みについては、別記事で詳しく書いています。
 
-https://zenn.dev/akaringo1109/articles/obsidian-context-continuity
+https://zenn.dev/trellis/articles/obsidian-context-continuity
 
 ```
 <Vault>/
@@ -469,9 +470,9 @@ cross-day diffの実現については、直近N日分のみを渡す・前日�
 
 **関連記事**
 
-https://zenn.dev/akaringo1109/articles/obsidian-context-continuity
+https://zenn.dev/trellis/articles/obsidian-context-continuity
 
-https://zenn.dev/akaringo1109/articles/visualize-ai-thinking-with-nano-banana
+https://zenn.dev/trellis/articles/visualize-ai-thinking-with-nano-banana
 
 「今日何したっけ」が音声で届く──Claude Code + Gemini TTS で日次・週次振り返りポッドキャストを自作した（近日公開予定）
 

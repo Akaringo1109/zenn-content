@@ -5,6 +5,7 @@ type: "tech"
 topics: ["figma", "aiagent", "javascript", "python"]
 published: true
 published_at: 2026-11-06 09:00
+publication_name: "trellis"
 ---
 
 前回、Claude Code で作ったデザインチェックのスキルを、Figma エージェントで動かせるようにしました。

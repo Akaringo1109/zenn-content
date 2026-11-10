@@ -5,6 +5,7 @@ type: "tech"
 topics: ["claudecode", "mcp", "supergateway", "devcontainer", "docker"]
 published: true
 published_at: 2026-07-19 19:00
+publication_name: "trellis"
 ---
 
 福岡で AI による業務改善や自動化、Web 制作などに取り組んでいる Trellis です。
@@ -12,7 +13,7 @@ published_at: 2026-07-19 19:00
 
 これは、別記事で「X への投稿を MCP で自動化したくて」公式 MCP を Claude Code に繋いだとき、接続でぶつかった話の裏側です。X 公式 MCP で実際に何ができるか（全24ツールの実測と、投稿の自動化）を確かめた本編はこちら。
 
-https://zenn.dev/akaringo1109/articles/x-official-mcp-claude-code
+https://zenn.dev/trellis/articles/x-official-mcp-claude-code
 
 接続できる MCP が許可リストで絞られた環境で、リストにない stdio の MCP をどう通したか。supergateway を挟むという定番の一手を、つまずきどころ込みで書きます。
 
@@ -27,7 +28,7 @@ https://zenn.dev/akaringo1109/articles/x-official-mcp-claude-code
 
 ## 症状：登録したのに、MCP が一覧に出てこない
 
-繋ぎたかったのは、[X が公式に出した MCP サーバー](https://zenn.dev/akaringo1109/articles/x-official-mcp-claude-code)（`@xdevplatform/xurl`）でした。`.mcp.json` に stdio 型で登録したところ、Claude Code の MCP 一覧に出てきません。エラーも出ません。ただ、一覧に出てこないだけでした。
+繋ぎたかったのは、[X が公式に出した MCP サーバー](https://zenn.dev/trellis/articles/x-official-mcp-claude-code)（`@xdevplatform/xurl`）でした。`.mcp.json` に stdio 型で登録したところ、Claude Code の MCP 一覧に出てきません。エラーも出ません。ただ、一覧に出てこないだけでした。
 
 原因は、この環境が使える MCP サーバーを許可リスト（allowlist）で絞っていたことでした。設定はこんな形です。
 
@@ -177,7 +178,7 @@ fi
 
 **関連記事**
 
-https://zenn.dev/akaringo1109/articles/x-official-mcp-claude-code
+https://zenn.dev/trellis/articles/x-official-mcp-claude-code
 
 - Smart Connections MCP を supergateway 経由で動かした話（近日公開予定）
 

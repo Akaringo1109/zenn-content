@@ -5,6 +5,7 @@ type: "tech"
 topics: ["herdr", "claudecode", "aiagent", "terminal"]
 published: true
 published_at: 2026-11-08 09:00
+publication_name: "trellis"
 ---
 
 2026年10月29日、herdr から、新しい実行環境の **herdr-core** と、その上で動くデスクトップアプリの **Herdr app** が出ました。
@@ -62,7 +63,7 @@ TUI はこれまでどおり使えると、公式サイトの FAQ に書かれ�
 私の TUI の使い方は前の記事に書きました。
 スマホからは Claude Code などを動かせるアプリの T3 Code を入り口にして、TUI のエージェントに指示しています。
 
-https://zenn.dev/akaringo1109/articles/t3code-herdr-mobile-agents
+https://zenn.dev/trellis/articles/t3code-herdr-mobile-agents
 
 ![herdr TUI と、herdr-core ＋ Herdr app の関係の図。TUI は画面とサーバーが 1 つで、herdr がエージェントを見分けて状態を拾う。herdr-core ＋ Herdr app は、画面の Herdr app と、端末を動かし続ける herdr-core に分かれ、端末のエージェントが OSC 7501 で状態を知らせる。あいだに「エージェントは共有しない」。上の T3 Code から、TUI には herdr agent prompt / read / wait、herdr-core には herdr-app do / hc send / read / wait で指示する](/images/herdr-core-app-vs-tui/4900d9898d286ed0.png)
 

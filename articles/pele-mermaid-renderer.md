@@ -4,6 +4,7 @@ emoji: "🌋"
 type: "tech"
 topics: ["mermaid", "svg", "javascript", "diagram", "pele"]
 published: true
+publication_name: "trellis"
 ---
 
 Mermaid の文をブラウザ無しで SVG にできる別エンジン「Pele」を、本家の Mermaid.js と描き比べました。

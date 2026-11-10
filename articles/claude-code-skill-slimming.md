@@ -4,6 +4,7 @@ emoji: "✂️"
 type: "tech"
 topics: ["claudecode", "skills", "aiagent", "promptengineering", "llm"]
 published: true
+publication_name: "trellis"
 ---
 
 Claude Code のスキル（作業の手順をまとめた SKILL.md）を、大きく作り直しました。
@@ -366,7 +367,7 @@ HTML / CSS の書き方そのものは任せる。以下はこの業務固有の
 
 エージェントを並べて回す仕組みは、次の記事に書いています。
 
-https://zenn.dev/akaringo1109/articles/t3code-herdr-mobile-agents
+https://zenn.dev/trellis/articles/t3code-herdr-mobile-agents
 
 スキルを削るとき、いちばん効いたのがこの回し方でした。
 ルールの出どころを調べた段階では「攻めても約 150 行」と見ていましたが、測りながら削ると 79 行で足りました。

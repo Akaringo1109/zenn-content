@@ -5,6 +5,7 @@ type: "idea"
 topics: ["obsidian", "claudecode", "ai", "pkm", "ノート術"]
 published: true
 published_at: "2026-07-16 19:00"
+publication_name: "trellis"
 ---
 
 ## はじめに
@@ -15,7 +16,7 @@ published_at: "2026-07-16 19:00"
 
 ためる編では、発生源をまるごと外部脳に貯める仕組み（PARA のフォルダ、Copilot での議事録生成、自分の発言記録、グラフビュー）を書きました。やっていることの正体は **コンテキストエンジニアリング** です。つまり「AI が正しく判断できる文脈を、途切れさせずに設計・維持する」ことです。
 
-https://zenn.dev/akaringo1109/articles/obsidian-context-continuity
+https://zenn.dev/trellis/articles/obsidian-context-continuity
 
 でも、貯めただけでは、ただのゴミ屋敷です。
 このつかう編では、貯めた外部脳から **AI でどう引き出し、自分自身の振り返りにどう返すか** を書きます。
@@ -220,7 +221,7 @@ AI は、空欄や曖昧なところを「それらしく」埋めるのが得�
 `/daily-reflection` という **スラッシュコマンド** を走らせると、完了タスクとその日リンクした議事録を AI が読み、YWT の下書きを組み立ててくれます。
 あとは選択肢が提示されるので、私は選ぶだけです。
 
-さらに、その日のノートと議事録を対話形式のポッドキャスト音声に変換して、皿洗い中や寝かしつけ中に「ながら聴き」でも振り返ります（詳しくは[別記事](https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news)に書きました）。
+さらに、その日のノートと議事録を対話形式のポッドキャスト音声に変換して、皿洗い中や寝かしつけ中に「ながら聴き」でも振り返ります（詳しくは[別記事](https://zenn.dev/trellis/articles/notebooklm-auto-podcast-daily-news)に書きました）。
 
 「振り返るテンプレ」を持つのではなく、「振り返りが勝手に立ち上がる仕掛け」を持つ。
 継続の最大の敵は、白紙の空欄だと思っています。
@@ -335,9 +336,9 @@ AI と共有したいルールやワークフローは、会話で毎回言わ�
 
 **関連記事**
 
-https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news
+https://zenn.dev/trellis/articles/notebooklm-auto-podcast-daily-news
 
-https://zenn.dev/akaringo1109/articles/visualize-ai-thinking-with-nano-banana
+https://zenn.dev/trellis/articles/visualize-ai-thinking-with-nano-banana
 
 ## Trellis のこと
 

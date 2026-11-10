@@ -5,6 +5,7 @@ type: "tech"
 topics: ["claudecode", "mcp", "x", "twitter", "api"]
 published: true
 published_at: 2026-07-18 19:00
+publication_name: "trellis"
 ---
 
 福岡で AI による業務改善や自動化、Web 制作などに取り組んでいる Trellis です。
@@ -158,7 +159,7 @@ xurl whoami --app prd-mcp
 ```
 
 :::message
-devcontainer 内で OAuth する場合は、ポート `8080` を転送しておかないとブラウザの「許可」がコールバックに届きません。また、接続できる MCP が許可リストで制限された環境では、この stdio 登録が弾かれることがあります。その場合の対処法（supergateway で localhost の HTTP に変換する）は[別記事](https://zenn.dev/akaringo1109/articles/mcp-supergateway-allowlist)にまとめました。
+devcontainer 内で OAuth する場合は、ポート `8080` を転送しておかないとブラウザの「許可」がコールバックに届きません。また、接続できる MCP が許可リストで制限された環境では、この stdio 登録が弾かれることがあります。その場合の対処法（supergateway で localhost の HTTP に変換する）は[別記事](https://zenn.dev/trellis/articles/mcp-supergateway-allowlist)にまとめました。
 :::
 
 ## 投稿はできない。では、何ができるのか（全24ツール）
@@ -353,7 +354,7 @@ X の API には2つの認証タイプがあります。ツールごとにどち
 
 **関連記事**
 
-https://zenn.dev/akaringo1109/articles/mcp-supergateway-allowlist
+https://zenn.dev/trellis/articles/mcp-supergateway-allowlist
 
 - Smart Connections MCP を supergateway 経由で動かした話（近日公開予定）
 

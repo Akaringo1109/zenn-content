@@ -5,6 +5,7 @@ type: "idea"
 topics: ["claudecode", "agentskills", "uidesign", "frontend", "ai"]
 published: true
 published_at: 2026-11-04 09:00
+publication_name: "trellis"
 ---
 
 Claude Code 向けの人気の UI スキルを 5 つ選び、スキルなしも入れた 6 組で、同じ LP を作らせました。

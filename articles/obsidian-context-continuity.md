@@ -5,6 +5,7 @@ type: "idea"
 topics: ["obsidian", "claudecode", "ai", "pkm", "ノート術"]
 published: true
 published_at: "2026-07-15 19:00"
+publication_name: "trellis"
 ---
 
 「先週の会議で何が決まったんだっけ」。
@@ -510,7 +511,7 @@ Plaud のような録音・文字起こしの機器で、その場で消える�
 
 つかう編では、この外部脳から「昨日のあれ」を曖昧な聞き方のまま引き出す方法と、日次・週次で自分を振り返る方法を書きました。
 
-https://zenn.dev/akaringo1109/articles/obsidian-context-continuity-2
+https://zenn.dev/trellis/articles/obsidian-context-continuity-2
 
 真似するなら、まずは要約ではなく発生源を 1 か所に貯めるところからです。
 

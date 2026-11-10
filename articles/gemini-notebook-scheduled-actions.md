@@ -4,6 +4,7 @@ emoji: "📻"
 type: "tech"
 topics: ["gemini", "notebooklm", "automation", "ai"]
 published: true
+publication_name: "trellis"
 ---
 
 私は毎日、追いたいテーマのニュースを Gemini Notebook（旧 NotebookLM）の音声解説で聴いています。
@@ -64,7 +65,7 @@ flowchart LR
 
 仕組みの全体と、ソースの絞り方で失敗した話は、前の記事にまとめました。
 
-https://zenn.dev/akaringo1109/articles/notebooklm-auto-podcast-daily-news
+https://zenn.dev/trellis/articles/notebooklm-auto-podcast-daily-news
 
 ### 手元の PC に頼っている 3 つの所
 

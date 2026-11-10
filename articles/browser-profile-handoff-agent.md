@@ -5,6 +5,7 @@ type: "tech"
 topics: ["claudecode", "playwright", "figma", "aiagent", "mcp"]
 published: true
 published_at: 2026-11-07 09:00
+publication_name: "trellis"
 ---
 
 Figma エージェントのように画面の中でしか話せない AI とも、人が仲介せずに Claude Code に対話させられます。
@@ -23,7 +24,7 @@ Claude Code にブラウザを持たせ、依頼を打つ・返事を待つ・�
 Figma エージェントで何ができたかと、スキルの作りは、前の記事に書きました。
 この記事では繰り返さず、夜通し回す運用と、道具の承認の扱いも書きません。
 
-https://zenn.dev/akaringo1109/articles/figma-agent-skill-external-library
+https://zenn.dev/trellis/articles/figma-agent-skill-external-library
 
 ## Figma エージェントとの対話を人が仲介する手間
 
