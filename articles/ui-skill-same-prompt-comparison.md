@@ -358,7 +358,7 @@ UI のスキルを入れる前に、まずスキルなしで同じものを作�
 
 ## Trellis のこと
 
-Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+Trellis は、福岡でホームページの制作と、AI による業務の自動化に取り組んでいます。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
 https://trellis-grow.com/?utm_source=zenn&utm_medium=referral&utm_campaign=ui-skill-same-prompt-comparison&utm_content=card

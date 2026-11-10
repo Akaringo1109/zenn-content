@@ -256,7 +256,7 @@ for (const n of [frame, ...frame.findAll(x => (g(x, 'annotations') || []).length
 
 ## Trellis のこと
 
-Trellis は、福岡でホームページの制作と、AI による業務の自動化をしている会社です。
+Trellis は、福岡でホームページの制作と、AI による業務の自動化に取り組んでいます。
 記事は Zenn と、Trellis のサイトのブログの両方に載せています。
 
 https://trellis-grow.com/?utm_source=zenn&utm_medium=referral&utm_campaign=figma-agent-annotation-check&utm_content=card
